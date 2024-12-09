@@ -55,6 +55,9 @@ footer h6 {
     color: hsl(256, 26%, 20%) ;
     font-size: smaller;
 }
+footer .icons:hover{
+    cursor: pointer;
+}
 footer h6:hover {
     color: hsl(256, 26%, 20%) ;
     font-size: smaller;
