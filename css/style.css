@@ -1,0 +1,64 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/* nav */
+.navbar{
+    width: 100%;
+    position: fixed;
+    z-index: 9;
+}
+/* header */
+.header{    
+    background-color: hsl(256, 26%, 20%);
+    padding: 70px;
+}
+.header .layer{
+    width: 25% !important;
+    height: 2px;
+    background-color: rgb(203, 205, 205);
+    margin: 20px 20px 20px 0px;
+}
+.imgHead img{
+    width: 75%;
+    transform: translateY(100px)
+}
+/* differentSection */
+.differentSection .headSection .layer{
+    width: 15% !important;
+    height: 2px;
+    background-color: rgb(203, 205, 205);
+    margin: 20px 20px 20px 0px;
+}
+/* find */
+.find .container{
+    background-color: hsl(256, 26%, 20%);
+}
+@media only screen and (max-width: 552px) {
+    footer .icons {
+        font-size: 80%;
+    }
+  }
+  @media only screen and (max-width: 470px) {
+    footer .icons {
+        font-size: 55%;
+    }
+  }
+.find button{
+    color: hsl(256, 26%, 20%) ;
+    font-weight: 600 !important;
+  }
+  /* footer */
+footer h6 {
+    color: hsl(256, 26%, 20%) ;
+    font-size: smaller;
+}
+footer h6:hover {
+    color: hsl(256, 26%, 20%) ;
+    font-size: smaller;
+    cursor: pointer;
+    color: gray;
+}
+/* end */
