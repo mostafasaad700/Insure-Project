@@ -55,10 +55,12 @@ footer h6 {
     color: hsl(256, 26%, 20%) ;
     font-size: smaller;
 }
-footer i:hover {
+footer i:hover{
     color: hsl(256, 26%, 20%);
     cursor: pointer;
-    }
+    transform: scale(1.2);
+    transition: 0.5s;
+}
 footer h6:hover {
     color: hsl(256, 26%, 20%) ;
     font-size: smaller;
